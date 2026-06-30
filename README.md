@@ -1,4 +1,4 @@
-# DSAN 6000 Lab 1: Linux Basics
+# Lab
 
 ## Goals
 
