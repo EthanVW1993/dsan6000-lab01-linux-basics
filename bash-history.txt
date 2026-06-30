@@ -1,0 +1,28 @@
+pwd
+ls -la
+git clone https://github.com/EthanVW1993/dsan6000-lab01-linux-basics.git
+cd dsan6000-lab01-linux-basics
+git status
+git pull
+cd test-environment
+mkdir -p docs models data/input data/output src/notebooks src/scripts temp
+ls
+pwd
+ls
+ls | wc -l > temp-numfiles.txt
+cat temp-numfiles.txt
+mv *.md docs/
+mv *.py src/scripts/
+mv *.ipynb src/notebooks/
+mv *.pkl *.h5 models/
+mv *.csv data/
+mv temp-numfiles.txt temp/
+ls
+ls docs
+ls src
+ls models
+ls data
+ls temp
+cd ..
+pwd
+history > bash-history.txt
